@@ -7,5 +7,10 @@ pipeline {
                 echo 'Hello World'
             }
         }
+        stage('List all files') {
+            steps {
+                ls -a
+            }
+        }
     }
 }
