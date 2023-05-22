@@ -9,7 +9,7 @@ pipeline {
         }
         stage('List all files') {
             steps {
-                sh "node --version"
+                bat "node --version"
             }
         }
     }
